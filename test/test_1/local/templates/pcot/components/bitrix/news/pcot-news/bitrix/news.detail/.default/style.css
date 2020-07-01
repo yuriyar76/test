@@ -1,0 +1,33 @@
+#about-sect .about.news .about-text .title-detail-news {font-size: 1.75rem;}
+
+#about-sect .about.news .about-wrap_wrap {margin-top: 0px;}
+
+#about-sect .about.news .about-wrap_wrap .about-img.sout-img {width: 360px; height: 240px; float: left; margin-right: 40px;}
+
+#about-sect .about.news .about-text p, #about-sect .about.news .about-text span {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; font-weight: 400;}
+
+#about-sect .about.news .about-text .data-news {display: block; margin-bottom: 1rem;}
+
+#about-sect .about.news .about-text .psot-list {margin-bottom: 30px;}
+
+#about-sect .about.news .about-text .psot-list li:before {content: "●"; left: -4%;}
+
+#about-sect .btn-zakaz a {color: #fff;}
+
+#about-sect .btn-zakaz a span {font-size: 20px;}
+
+#about-sect .btn-zakaz a:hover {text-decoration: none;}
+
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
