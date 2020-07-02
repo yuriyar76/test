@@ -1,0 +1,7 @@
+Тестовое задание - всплывающая ajax форма с прикреплением файлов.
+Рабочий вариант формы на https://newpartner.ru на главной (Заключить договор)
+file.inc.php - кнопка и модальное окно с формой
+api.php - обработчик формы на сервере.
+scripts.js - ajax jquery
+uploading/files - папка для загруженных на сервер файлов
+uploading/index.php - подключение Upload Plugin PHP
