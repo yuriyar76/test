@@ -1,0 +1,10 @@
+<?$MESS["TITLE_ADD_NEW"] = "Новая заявка";
+$MESS["FROM"] = "Откуда:";
+$MESS["WHERE"] = "Куда:";
+$MESS["hight"] = "Высота:";
+$MESS["length"] = "Длина:";
+$MESS["width"] = "Ширина:";
+$MESS["weigth"] = "Вес:";
+$MESS["cm"] = "см";
+$MESS["kg"] = "кг";
+$MESS["Further"] = "Далее";
