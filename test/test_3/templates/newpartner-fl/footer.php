@@ -1,6 +1,8 @@
 <?php if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 {
     die();
+
+
 }?>
 <!-- /.container-fluid -->
 </div>
@@ -9,9 +11,10 @@
 
 <!-- Footer -->
 <footer class="sticky-footer bg-white">
+    <?php //dump($arResult);?>
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+           <span>&copy; мнбши оюпрмеп 2020</span>
         </div>
     </div>
 </footer>
@@ -34,9 +37,15 @@
 ?>
 
 <!-- Bootstrap core JavaScript-->
-<script src="/bitrix/templates/newpartner-fl/vendor/jquery/jquery.min.js"></script>
+<!--<script src="/bitrix/templates/newpartner-fl/vendor/jquery/jquery.min.js"></script>-->
+<script src="/bitrix/templates/newpartner-2016/js/jquery-1.11.2.min.js"></script>
 <script src="/bitrix/templates/newpartner-fl/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/bitrix/templates/newpartner-fl/vendor/jquery-ui/js/jquery-ui.min.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/jquery-ui-new.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/jquery.ui.widget.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/jquery.fileupload.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/jquery.maskedinput.min.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/scripts.js"></script>
+<script src="/bitrix/templates/newpartner-2016/js/script.js"></script>
 <script src="/bitrix/templates/newpartner-fl/js/scripts.js"></script>
 
 <!-- Core plugin JavaScript-->
@@ -51,6 +60,13 @@
 
 <!-- Page level custom scripts -->
 <script src="/bitrix/templates/newpartner-fl/js/demo/datatables-demo.js"></script>
-
+<script type="text/javascript">$(window).on('load', function () {
+        let $preloader = $('#p_prldr'),
+            $svg_anm   = $preloader.find('.svg_anm');
+        $svg_anm.fadeOut();
+        $preloader.delay(500).fadeOut('slow');
+    });
+</script>
+<!--<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>-->
 </body>
 </html>
